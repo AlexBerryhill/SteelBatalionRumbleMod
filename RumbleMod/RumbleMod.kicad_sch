@@ -1994,7 +1994,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1102f83f-894d-4105-a750-6fe6ebda2f77")
+		(uuid "14f97ac5-233f-4148-8a63-7f8f65fa7caf")
 		(property "Reference" "J2"
 			(at 208.28 97.7899 90)
 			(effects
@@ -2041,10 +2041,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "fb6df81a-5041-4b5e-85fd-1cc2fd0ca13c")
+			(uuid "49628930-40a6-4f13-94a0-43fdf31338da")
 		)
 		(pin "1"
-			(uuid "e821e7c4-1b88-480e-b69f-90365bf4c5c4")
+			(uuid "647a78c8-53d4-4d35-8629-ed7837de2700")
 		)
 		(instances
 			(project "RumbleMod"
@@ -2360,76 +2360,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 219.71 99.06 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e97b5ad-b965-4d9a-a272-fc674e73cffe")
-		(property "Reference" "J3"
-			(at 221.742 101.854 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 228.092 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 219.71 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 219.71 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "faad1178-e20b-4429-975c-8eddfe2627d4")
-		)
-		(pin "1"
-			(uuid "32539cb5-fa71-4c9d-adeb-b132bf81cd50")
-		)
-		(instances
-			(project "RumbleMod"
-				(path "/30f7156f-00cf-4de8-a89f-6206961fdbc8"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:LM741")
 		(at 114.3 67.31 0)
 		(unit 1)
@@ -2510,6 +2440,76 @@
 			(project ""
 				(path "/30f7156f-00cf-4de8-a89f-6206961fdbc8"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 219.71 99.06 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a5b8630-5cf8-4337-b3a5-1ecd3dd37c1a")
+		(property "Reference" "J3"
+			(at 226.822 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 236.22 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d485b992-7b9d-4558-8bde-56d667705d62")
+		)
+		(pin "1"
+			(uuid "59080344-e05b-490d-8cf3-bcaf5b483d3d")
+		)
+		(instances
+			(project "RumbleMod"
+				(path "/30f7156f-00cf-4de8-a89f-6206961fdbc8"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2791,7 +2791,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fcf2072c-9313-4798-af5d-dbfe9ed99139")
+		(uuid "e3121b4b-d501-4eba-954c-b2281606f27d")
 		(property "Reference" "J1"
 			(at 58.42 63.5 0)
 			(effects
@@ -2836,10 +2836,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ddfe317f-7af8-4cb8-b8e1-691d21e3b6e9")
+			(uuid "810042d9-638d-42bb-b723-d738533e9dd2")
 		)
 		(pin "1"
-			(uuid "8ac415b4-1a10-4ec8-9746-dc94eaf82c69")
+			(uuid "7258943e-826c-4e9b-8a60-439528576cde")
 		)
 		(instances
 			(project ""
